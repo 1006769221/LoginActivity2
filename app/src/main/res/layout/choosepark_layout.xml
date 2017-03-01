@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray">
+
+    <include layout="@layout/title"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<FrameLayout
+    android:id="@+id/city"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="10dp"
+    android:background="#FFF"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="城市广场停车场"
+        android:textStyle="bold"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="营业时间6：00-24:00"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxxxxxxxxxxxxxx"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/gocitypark"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="去这里"
+        android:background="@drawable/editsharp1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="90dp"/>
+    <ImageView
+        android:id="@+id/img_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="80dp"/>
+</FrameLayout>
+    <FrameLayout
+        android:id="@+id/shop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="百货大厦停车场"
+            android:textStyle="bold"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="营业时间6：00-24:00"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxxxxxxxxxxxxxxx"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="去这里"
+            android:id="@+id/goshop"
+            android:background="@drawable/editsharp1"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="90dp"/>
+        <ImageView
+            android:id="@+id/img_market"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="80dp"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/kfc"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="百城柯德基停车场"
+            android:textStyle="bold"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="营业时间6：00-24:00"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxxxxxxxxxxxxxxx"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="去这里"
+            android:id="@+id/gokfc"
+            android:background="@drawable/editsharp1"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="90dp"/>
+        <ImageView
+            android:id="@+id/img_kfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="80dp"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/xinyu"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新宇大厦停车场"
+            android:textStyle="bold"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="营业时间6：00-24:00"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxxxxxxxxxxxxxxx"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="去这里"
+            android:id="@+id/goxinyu"
+            android:background="@drawable/editsharp1"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="90dp"/>
+        <ImageView
+            android:id="@+id/img_xinyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="80dp"/>
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

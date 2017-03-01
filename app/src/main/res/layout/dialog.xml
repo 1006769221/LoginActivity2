@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:id="@+id/dialog">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="#ffffffff" 
+    android:orientation="horizontal"
+    >
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvname"
+        android:text="请输入手机号码：" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="160dp" 
+        android:id="@+id/phone"
+        android:background="@drawable/editsharp"
+        android:minWidth="100dip"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/getyzm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取验证码"
+        android:layout_marginLeft="180dp" />
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:background="#ffffffff"
+android:orientation="horizontal"
+    android:layout_marginLeft="15dp">
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入验证码："/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:id="@+id/yzm"
+        android:background="@drawable/editsharp"
+        android:minWidth="100dip"/>
+</LinearLayout>
+</LinearLayout>

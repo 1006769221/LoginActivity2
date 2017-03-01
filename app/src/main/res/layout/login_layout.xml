@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/img_1"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/editsharp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="用户名"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/editsharp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:password="true"
+        android:hint="密码"/>
+
+    <TextView
+        android:id="@+id/forgetpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="260dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="登        录"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+        android:background="@color/blue"/>
+</LinearLayout>
